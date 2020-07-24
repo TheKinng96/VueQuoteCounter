@@ -14,16 +14,16 @@
 
 <script>
 export default {
-  data: function(){
+  data: function () {
     return {
-      quote=''
-    }
+      quote: "",
+    };
   },
   methods: {
-    createNew(){
-      this.$emit('quoteAdded', this.quote);
-      this.quote = ''
-    }
+    createNew() {
+      this.$emit("quoteAdded", this.quote);
+      this.quote = "";
+    },
   },
 };
 </script>
